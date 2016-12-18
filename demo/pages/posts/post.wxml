@@ -12,6 +12,8 @@
     <image src="/image/iqiyi.png"></image>
   </swiper-item>
 </swiper>
-<block wx:for="{{postsList}}">
-  <template is="postItem" data="{{...item}}" />
+<block wx:for="{{postsList}}" wx:key="{{index}}">
+  <view catchtap="gotoDetailPage" data-postid="{{item.postId}}">
+    <template is="postItem" data="{{...item}}" />
+  </view>
 </block>
