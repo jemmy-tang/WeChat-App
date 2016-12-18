@@ -1,0 +1,7 @@
+
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+  <image class="userInfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+  <text class="userInfo-nickName">{{motto}}, {{userInfo.nickName}}</text>
+  <view class="button" bindtap="onRedirectToStart">开启小程序之旅</view>
+</view>

@@ -1,0 +1,35 @@
+/* pages/welcome/welcome.wxss */
+
+page {
+  background-color: #b3d4db;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userInfo-avatar {
+  margin-top: 160rpx;
+  margin-bottom: 100rpx;
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+
+.userInfo-nickName {
+  font-size: 15px;
+}
+
+.button {
+  margin-top: 210rpx;
+  height: 42px;
+  line-height: 40px;
+  padding-left: 64rpx;
+  padding-right: 64rpx;
+  border: 1px solid #405f80;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #405f80;
+}

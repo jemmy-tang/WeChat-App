@@ -1,0 +1,11 @@
+/* pages/posts/post.wxss */
+@import "post-item/post-item-temp.wxss";
+
+page {
+  background-color: #f8f8f8;
+}
+
+.swiper, .swiper image {
+  width: 100%;
+  height: 400rpx;
+}

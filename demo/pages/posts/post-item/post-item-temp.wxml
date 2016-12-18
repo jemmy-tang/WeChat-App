@@ -1,0 +1,18 @@
+<!--pages/posts/post-item/post-item-temp.wxml-->
+<template name="postItem">
+    <view class="post-item">
+        <view class="post-author-date">
+            <image class="post-author-img" src="{{avatar}}"></image>
+            <view class="post-date">{{date}}</view>
+        </view>
+        <view class="post-title">{{title}}</view>
+        <image class="post-img" src="{{imgSrc}}"></image>
+        <view class="post-content">{{content}}</view>
+        <view class="post-ft">
+            <image class="img" src="../../image/icon/chat1.png"></image>
+            <text class="num">{{collection}}</text>
+            <image class="img" src="../../image/icon/view.png"></image>
+            <text class="num">{{reading}}</text>
+        </view>
+    </view>
+</template>   
