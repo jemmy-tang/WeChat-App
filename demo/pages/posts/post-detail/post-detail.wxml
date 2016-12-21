@@ -1,6 +1,6 @@
 <!--pages/posts/post-detail/post-detail.wxml-->
 <view class="head-img">
-    <image src="/image/post/cat.png"></image>
+    <image class="ban" src="/image/post/cat.png"></image>
     <image class="music-ctrl-img" src="/image/music/music-start.png"></image>
 </view>
 
@@ -8,10 +8,10 @@
     <image class="author-img" src="/image/avatar/1.png"></image>
     <text class="author-name">知乎</text>
     <text>发表于</text>
-    <text class="dateline">三天前</text>
+    <text>三天前</text>
 </view>
 
-<text class="post-title">当我们在谈论经济学时，我们在谈论什么呢？</text>
+<view class="post-title">当我们在谈论经济学时，我们在谈论什么呢？</view>
 
 <view class="post-action">
     <image src="/image/icon/collection.png"></image>
