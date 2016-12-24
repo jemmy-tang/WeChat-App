@@ -6,7 +6,9 @@ Page({
   data: {
   },
   onLoad() {
-    this.data.postsList = postsList;
+    this.setData({
+      postsList: postsList
+    })
   },
   gotoDetailPage: (event)=>{
     var postId = event.currentTarget.dataset.postid;
