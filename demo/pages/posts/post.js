@@ -10,11 +10,18 @@ Page({
       postsList: postsList
     })
   },
-  gotoDetailPage: (event)=>{
+  gotoDetailPage(event) {
     var postId = event.currentTarget.dataset.postid;
-    
+
     wx.navigateTo({
-      url: 'post-detail/post-detail?id='+postId
+      url: 'post-detail/post-detail?id=' + postId
+    })
+  },
+  onSwiperTap(event) {
+    var postId = event.target.dataset.postid;
+
+    wx.navigateTo({
+      url: 'post-detail/post-detail?id=' + postId
     })
   }
 })

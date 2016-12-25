@@ -1,7 +1,7 @@
 <!--pages/posts/post-detail/post-detail.wxml-->
 <view class="head-img">
-    <image class="ban" src="{{postData.headImgSrc}}"></image>
-    <image class="music-ctrl-img" src="/image/music/music-start.png"></image>
+    <image class="ban" src="{{isMusicPlaying ? postData.music.coverImg : postData.headImgSrc}}"></image>
+    <image class="music-ctrl-img" src="/image/music/music-{{isMusicPlaying ? 'stop' : 'start' }}.png" catchtap="onMusicStartTap"></image>
 </view>
 
 <view class="post-author-info">
