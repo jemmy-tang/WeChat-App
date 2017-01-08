@@ -1,0 +1,4 @@
+@import "movie-type-tpl/movie-type-tpl.wxss";
+page{
+    background-color: #f2f2f2;
+}

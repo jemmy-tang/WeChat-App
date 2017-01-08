@@ -6,7 +6,7 @@ Page({
     userInfo: {}
   },
   onLoad: function () {
-    console.log('onLoad')
+    //console.log('onLoad')
     var that = this
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function(userInfo){
@@ -18,7 +18,7 @@ Page({
     })
   },
   onRedirectToStart() {
-    wx.redirectTo({
+    wx.switchTab({
       url: '../posts/post'
     })
   }

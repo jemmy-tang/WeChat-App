@@ -1,0 +1,3 @@
+<import src="movie-type-tpl/movie-type-tpl.wxml" />
+
+<template is="movieType" />

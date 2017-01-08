@@ -1,0 +1,21 @@
+@import "../star-tpl/star-tpl.wxss";
+
+.movie-container{
+    display: flex;
+    flex-direction: column;
+    width: 220rpx;
+}
+.movie-img{
+    width: 220rpx;
+    height: 330rpx;
+}
+.movie-title{
+    font-size: 13px;
+    color: #666;
+    margin-top: 26rpx;
+    margin-bottom: 26rpx;
+    width: 100%;
+    overflow: hidden;
+    white-space:nowrap; 
+    text-overflow:ellipsis;
+}

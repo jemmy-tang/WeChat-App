@@ -1,0 +1,8 @@
+<import src="../star-tpl/star-tpl.wxml" />
+<template name="movie"> 
+    <view class="movie-container">
+        <image class="movie-img" src="/image/iqiyi.png"></image>
+        <text class="movie-title">我不是潘金莲潘金莲潘金莲</text>
+        <template is="star" />
+    </view>
+</template>

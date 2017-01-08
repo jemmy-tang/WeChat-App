@@ -1,0 +1,17 @@
+<import src="../movie-tpl/movie-tpl.wxml" />
+<template name="movieType">
+  <view class="movie-type-container">
+    <view class="movie-type-head">
+      <text class="title">正在热映</text>
+      <view class="more">
+        <text>更多</text>
+        <image src="/image/icon/arrow-right.png"></image>
+      </view>
+    </view>
+    <view class="movie-type-group">
+      <template is="movie" />
+      <template is="movie" />
+      <template is="movie" />
+    </view>
+  </view>
+</template>

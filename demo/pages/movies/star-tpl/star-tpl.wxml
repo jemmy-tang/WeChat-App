@@ -1,0 +1,14 @@
+
+<!--pages/movie/star/start-tpl.wxml-->
+<template name="star">
+  <view class="star-container">
+    <view class="stars">
+      <image src="/image/icon/star.png"></image>
+      <image src="/image/icon/star.png"></image>
+      <image src="/image/icon/star.png"></image>
+      <image src="/image/icon/star.png"></image>
+      <image src="/image/icon/star.png"></image>
+    </view>
+    <text class="score">9.5</text>
+  </view>
+</template>

@@ -1,6 +1,6 @@
 
 <!--pages/posts/post.wxml-->
-<import src="post-item/post-item-temp.wxml" />
+<import src="post-item-tpl/post-item-tpl.wxml" />
 <swiper catchtap="onSwiperTap"  class="swiper" indicator-dots="true" autoplay="true">
   <block wx:for="{{postsList}}" wx:key="{{index}}">
     <swiper-item>

@@ -1,5 +1,5 @@
 /* pages/posts/post.wxss */
-@import "post-item/post-item-temp.wxss";
+@import "post-item-tpl/post-item-tpl.wxss";
 
 page {
   background-color: #f8f8f8;
