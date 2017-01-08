@@ -3,17 +3,17 @@
 .movie-container{
     display: flex;
     flex-direction: column;
-    width: 220rpx;
+    width: 200rpx;
 }
 .movie-img{
-    width: 220rpx;
-    height: 330rpx;
+    width: 200rpx;
+    height: 300rpx;
 }
 .movie-title{
-    font-size: 13px;
+    font-size: 28rpx;
     color: #666;
-    margin-top: 26rpx;
-    margin-bottom: 26rpx;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
     width: 100%;
     overflow: hidden;
     white-space:nowrap; 

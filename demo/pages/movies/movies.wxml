@@ -1,3 +1,5 @@
 <import src="movie-type-tpl/movie-type-tpl.wxml" />
 
-<template is="movieType" />
+<block wx:for="{{movieTypesData}}" wx:key="{{index}}">
+    <template is="movieType" data="{{...item}}" />
+</block>

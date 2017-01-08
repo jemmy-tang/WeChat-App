@@ -1,0 +1,10 @@
+
+.load-more text{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    height: 70rpx;
+    line-height: 70rpx;
+    color: #999;
+    background-color: #f2f2f2; 
+}

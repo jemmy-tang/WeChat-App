@@ -1,6 +1,6 @@
 @import "../movie-tpl/movie-tpl.wxss";
 .movie-type-container{
-    padding: 30rpx 24rpx;
+    padding: 30rpx 0;
     background-color: #fff;
     margin-bottom: 30rpx; 
 }
@@ -9,10 +9,12 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 30rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
 }
 
 .movie-type-head .title{
-    font-size: 14px;
+    font-size: 32rpx;
     color: #333;
 }
 
@@ -30,4 +32,7 @@
 .movie-type-group{
     display: flex;
     justify-content: space-between;
+    padding-left: 34rpx;
+    padding-right: 34rpx;
+    /*height: 392rpx;*/
 }

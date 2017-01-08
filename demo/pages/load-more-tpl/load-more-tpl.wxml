@@ -1,0 +1,6 @@
+<template name="loadMore">
+    <view class="load-more" wx:if="{{hasMore}}">
+        <text wx:if="{{isLoadingMore}}">加载中...</text>
+        <text wx:else>加载更多</text>
+    </view>
+</template>

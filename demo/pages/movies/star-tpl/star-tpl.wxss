@@ -7,12 +7,12 @@
     margin-right: 24rpx;
 }
 .star-container image{
-    width: 16rpx;
-    height: 16rpx;
+    width: 20rpx;
+    height: 20rpx;
     margin-left: 2px;
 }
 
 .star-container .score{
-    font-size: 12px;
+    font-size: 24rpx;
     color: #273b68;
 }

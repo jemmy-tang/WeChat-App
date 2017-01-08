@@ -1,0 +1,16 @@
+/* pages/movies/more-movies/more-movies.wxss */
+@import "../movie-tpl/movie-tpl.wxss";
+@import "../../load-more-tpl/load-more-tpl.wxss";
+.more-movie-scroll{
+    
+}
+.more-movie-list{
+    padding: 30rpx 34rpx 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.more-movie-list .movie-container{
+    margin-bottom: 30rpx;
+}

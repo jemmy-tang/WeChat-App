@@ -1,0 +1,12 @@
+
+<!--pages/movies/more-movies/more-movies.wxml-->
+<import src="../movie-tpl/movie-tpl.wxml" />
+<import src="../../load-more-tpl/load-more-tpl.wxml" />
+<scroll-view style="height:{{scrollH}}px" class="more-movie-scroll" scroll-y="true" scroll-x="false" bindscrolltolower="onScrolltolower">
+  <view class="more-movie-list">
+    <block wx:for="{{movies}}" wx:key="{{index}}">
+      <template is="movie" data="{{...item}}" />
+    </block>
+  </view>
+  <template is="loadMore" data="{{isLoadingMore: isLoadingMore, hasMore:hasMore}}" />
+</scroll-view>
